@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
@@ -50,8 +52,8 @@
                 <nav class="navbar">
                     <ul>
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#highlight">Highlight</a></li>
                         <li><a href="#about">Sobre</a></li>
+                        <li><a href="#highlight">Highlight</a></li>
                         <li><a href="#galery">Galeria</a></li>
                         <li><a href="#contact">Contato</a></li>
                     </ul>
@@ -69,8 +71,10 @@
                     </div>
                     <div class="socials-icon">
                         <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://www.instagram.com/_william0.8/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@.william_074" target="_blank"><i
+                                class="fa-brands fa-tiktok"></i></a>
                     </div>
                 </div>
                 <h1 class="blur-title">ATLETA DE BASQUETE</h1>
@@ -79,9 +83,9 @@
 
         <!-- ABOUT SECTION -->
         <section id="about">
-            <div class="title-container about">
-                <div class="about-container">
-                    <h1 class="title">Sobre</h1>
+            <div class="about-container">
+                <div class="title-container about">
+                    <h1 class="title">Sobre mim</h1>
                     <p class="subtitle about">José William</p>
                 </div>
                 <div class="about-text">
@@ -119,17 +123,34 @@
 
         <!-- HIGHLIGHT SECTION -->
         <section id="highlight">
-            <div class="highlight-ccontainer">
+            <div class="highlight-container">
                 <div class="backblur"></div>
                 <div class="video-highlight-container">
                     <img src="./assets/images/bahia2.jpg" alt="Foto William">
-                    <div class="play-button">
-                        <i class="fa-solid fa-play"></i>
-                    </div>
+                    <button class="play-button"><i class="fa-solid fa-play"></i></button>
                 </div>
                 <div class="title-container highlight">
                     <h1 class="title up">Assista meu último</h1>
                     <h1 class="title down">highlight</h1>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <video id="highlightVideo" width="320" height="240" autoplay='autoplay'>
+                                <source src="./assets/videos/BAHIA 3X3.mp4" type="video/mp4">
+                                <object data="" width="520" height="340">
+                                    <embed width="320" height="240" src="Yes Bank Advertisment.mp4">
+                                </object>
+                            </video>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -141,21 +162,29 @@
                 <p class="subtitle galery">Eu nos jogos</p>
             </div>
             <div class="parent">
-                <div class="div1"> <a href="#"> <img src="./assets/images/galeria1.png" alt="Foto William Jogando"> <i
+                <div class="div1"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria1.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div2"> <a href="#"> <img src="./assets/images/galeria2.png" alt="Foto William Jogando"> <i
+                <div class="div2"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria2.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div3"> <a href="#"> <img src="./assets/images/galeria8.png" alt="Foto William Jogando"> <i
+                <div class="div3"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria8.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div4"> <a href="#"> <img src="./assets/images/galeria4.png" alt="Foto William Jogando"> <i
+                <div class="div4"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria4.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div5"> <a href="#"> <img src="./assets/images/galeria5.png" alt="Foto William Jogando"> <i
+                <div class="div5"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria5.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div6"> <a href="#"> <img src="./assets/images/galeria6.png" alt="Foto William Jogando"> <i
+                <div class="div6"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria6.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div7"> <a href="#"> <img src="./assets/images/galeria7.png" alt="Foto William Jogando"> <i
+                <div class="div7"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria7.png" alt="Foto William Jogando"> <i
                             class="fa-brands fa-instagram"></i></a></div>
-                <div class="div8"> <a href="#"> <img src="./assets/images/galeria3.png" alt="Foto William Jogando"> <i
+                <div class="div8"> <a href="https://www.instagram.com/_william0.8/" target="_blank"> <img
+                            src="./assets/images/galeria3.png" alt="Foto William Jogando"><i
                             class="fa-brands fa-instagram"></i></a></div>
             </div>
         </section>
@@ -163,21 +192,34 @@
         <!-- CONTACT SECTION -->
         <div class="contact-wrapper">
             <section id="contact">
-                <h1>ENTRE EM CONTATO</h1>
+                <h1 class="title">ENTRE EM CONTATO</h1>
                 <div class="socials-container">
                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/_william0.8/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@.william_074" target="_blank"><i
+                            class="fa-brands fa-tiktok"></i></a>
                 </div>
-                <div class="footer">
-                    <p>© 2026 — Copyright. All Rights reserved</p>
-                    <img src="./assets/images/logoMateus.png" alt="Logo Desenvolvedor">
-                </div>
-                <h1>JOSÉ WILLIAM - BAHIA</h1>
             </section>
+            <svg class="footer-divisor" width="1727" height="1" viewBox="0 0 1727 1" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0.5H1727" stroke="#EEEEEE" />
+            </svg>
+
+            <div class="footer">
+                <p>Copyright © 2026 José William. Todos os direitos reservados.</p>
+                <a href="https://www.linkedin.com/in/teuaraujoo/" target="_blank"><img
+                        src="./assets/images/logoMateus.png" alt="Logo Desenvolvedor"></a>
+            </div>
+            <h1 class="blur-title contact">JOSÉ WILLIAM - BAHIA</h1>
         </div>
     </main>
-    <script src="./assets/scripts/script.js"></script>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

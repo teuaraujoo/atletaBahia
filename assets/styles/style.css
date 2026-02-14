@@ -252,6 +252,7 @@ li>a:hover {
     filter: brightness(70%) blur(1.5px);
     border-radius: 10px;
     transform: scale(0.6);
+    content: url(../images/bahia2W.webp);
 }
 
 .play-button {

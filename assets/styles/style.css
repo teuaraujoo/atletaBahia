@@ -569,3 +569,23 @@ li>a:hover {
     background-clip: text;
     filter: blur(7px);
 }
+
+/* Notebook */
+@media (min-width: 1440px) and (max-width: 1919px) {
+
+}
+
+/* Tablets */
+@media (max-width: 1200px) {
+
+}
+
+/* Small devices */
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+}

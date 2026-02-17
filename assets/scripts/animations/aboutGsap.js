@@ -10,18 +10,24 @@ export function aboutAnimate() {
         }
     });
 
-    tl.from('.title.about', {
-        y: 50,
+    tl.from('#about img', {
+        scale: 0.9,
         opacity: 0,
-        duration: 0.8,
-        ease: 'power2.out'
+        duration: 1.2,
+        ease: 'power3.out'
     })
-    .from('.subtitle.about', {
-        y: 50,
-        opacity: 0,
-        duration: 0.8,
-        ease: 'power2.out'
-    }, '-=0.6')
+        .from('.title.about', {
+            y: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out'
+        }, '-=0.6')
+        .from('.subtitle.about', {
+            y: 50,
+            opacity: 0,
+            duration: 0.8,
+            ease: 'power2.out'
+        }, '-=0.6')
         .from('.about-text', {
             y: 50,
             opacity: 0,
@@ -29,16 +35,10 @@ export function aboutAnimate() {
             ease: 'power3.out'
         }, '-=0.5')
         .from('.stats', {
-            y: 30, 
+            y: 30,
             opacity: 0,
             duration: 0.8,
             stagger: 0.2,
             ease: 'back.out(1.7)'
         }, '-=0.5')
-        .from('#about img', {
-            scale: 0.9,
-            opacity: 0,
-            duration: 1.2,
-            ease: 'power3.out'
-        }, '-=1');
 }

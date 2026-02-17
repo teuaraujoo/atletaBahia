@@ -54,7 +54,7 @@ export function homeAnimate() {
             duration: 1,
             ease: 'power2.out'
         },
-            '-=0.6')
+            '-=1.0')
         .fromTo('.socials-icon', {
             autoAlpha: 0,
             opacity: 0,

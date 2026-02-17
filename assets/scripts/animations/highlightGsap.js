@@ -10,22 +10,22 @@ export function highlightAnimate() {
         }
     });
 
-    tl.from('.video-highlight-container', {
-        scale: 0.8,
+    tl.from('.title-container.highlight .title.up', {
+        x: -50,
         opacity: 0,
         duration: 1,
         ease: 'power3.out'
     })
-        .from('.title-container.highlight .title.up', {
-            x: -50,
-            opacity: 0,
-            duration: 1,
-            ease: 'power3.out'
-        }, '-=0.5')
-        .from('.title-container.highlight .title.down', {
-            x: 50,
-            opacity: 0,
-            duration: 1,
-            ease: 'power3.out'
-        }, '-=0.8');
+    .from('.title-container.highlight .title.down', {
+        x: 50,
+        opacity: 0,
+        duration: 1,
+        ease: 'power3.out'
+    }, '-=0.4')
+    .from('.video-highlight-container', {
+        scale: 0.8,
+        opacity: 0,
+        duration: 1,
+        ease: 'power3.out'
+    }, '-=0.6')
 }

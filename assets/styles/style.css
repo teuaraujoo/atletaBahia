@@ -468,7 +468,7 @@ li>a:hover {
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     color: var(--secondary-color);
     will-change: transform, opacity;
@@ -738,7 +738,7 @@ li>a:hover {
 
     /* ABOUT SECTION */
     #about {
-        gap: 90px;
+        gap: 20px;
     }
 
     #about img {
@@ -751,7 +751,11 @@ li>a:hover {
     }
 
     .about-text p {
-        width: 95%;
+        width: 85%;
+    }
+
+    .stats-container {
+        margin-right: 30px;
     }
 
     /* GALERY SECTION */
@@ -1379,12 +1383,13 @@ li>a:hover {
     }
 
     .about-text p {
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
         width: 100%;
         text-align: center;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: 28px;
+        margin-right: 28px;
     }
 
     .stats {

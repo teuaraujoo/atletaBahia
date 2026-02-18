@@ -116,6 +116,7 @@ html.lenis body {
     top: 8%;
     left: 18%;
     transform: scale(0.8);
+    will-change: transform, opacity;
 }
 
 /* NAVBAR */
@@ -134,6 +135,7 @@ header {
     justify-content: space-between;
     z-index: 99;
     transition: background 0.3s ease, backdrop-filter 0.3s ease;
+    will-change: transform, opacity;
 }
 
 .logo {
@@ -184,6 +186,7 @@ li>a:hover {
     margin-top: 95px;
     display: flex;
     flex-direction: column;
+    will-change: transform, opacity;
 }
 
 .title-container h1 {
@@ -206,6 +209,7 @@ li>a:hover {
 .subtitle.hero {
     font-style: italic;
     margin-left: 0px;
+    will-change: transform, opacity;
 }
 
 .socials-icon {
@@ -213,6 +217,7 @@ li>a:hover {
     color: var(--secondary-color);
     display: flex;
     gap: 15px;
+    will-change: transform, opacity, filter;
 }
 
 .socials-icon a {
@@ -289,6 +294,7 @@ li>a:hover {
     border-radius: 10px;
     transform: scale(0.6);
     content: url(../images/bahia2W.webp);
+    will-change: transform, opacity;
 }
 
 .play-button {
@@ -383,6 +389,7 @@ li>a:hover {
     max-height: 375px;
     cursor: pointer;
     transition: transform 0.3s ease;
+    will-change: transform;
 }
 
 .parent div img {
@@ -464,6 +471,7 @@ li>a:hover {
     font-size: 25px;
     line-height: 30px;
     color: var(--secondary-color);
+    will-change: transform, opacity;
 }
 
 .stats-container {
@@ -472,6 +480,10 @@ li>a:hover {
     justify-content: space-evenly;
     margin-top: 68px;
     margin-left: 78px;
+}
+
+.stats {
+    will-change: transform, opacity;
 }
 
 .stats h1 {
@@ -495,6 +507,7 @@ li>a:hover {
 #about img {
     margin-top: 100px;
     margin-right: var(--margin-sides);
+    will-change: transform, opacity;
 }
 
 /* CONTACT SECTION */
